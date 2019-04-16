@@ -7,13 +7,32 @@
 </head>
 
 <body>
-    <div>
-        <img class='cat-img' id='cat' src='./assets/cat.jpg' alt='cat'>
-    </div>
-    <div>
-        <span id='counter'>0</span>
+    <div class='main'>
+        <div class='cat-wrapper'>
+            <div class='wrapper-item'>
+                <span id='cat-name'></span>
+            </div>
+            <div class='wrapper-item'>
+                <img class='cat-img main-cat' id='cat' src='./assets/cat.jpg' alt='cat'>
+            </div>
+            <div class='wrapper-item'>
+                <span id='cat-counter'>0</span>
+            </div>
+        </div>
+        <div class='cat-wrapper'>
+            <div class='wrapper-item'>
+                <span id='challenger-cat-name'>aaaaaaaa</span>
+            </div>
+            <div class='wrapper-item'>
+                <img class='cat-img' id='challenger-cat' src='./assets/challenger-cat.jpg' alt='challenger cat'>
+            </div>
+            <div class='wrapper-item'>
+                <span id='challenger-cat-counter'>0</span>
+            </div>
+        </div>
     </div>
 </body>
+
 <footer>
     <script type='text/javascript' src='./js/main.js'></script>
 </footer>

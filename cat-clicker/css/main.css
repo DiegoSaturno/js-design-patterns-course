@@ -1,5 +1,23 @@
-.cat-img {
-    cursor: pointer;
+.main {
     display: flex;
     justify-content: space-around;
+    height: 100%;
+}
+
+.cat-img {
+    cursor: pointer;
+}
+
+.main-cat {
+    height: 183px;;
+}
+
+.cat-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper-item {
+    padding: 10px 0 10px 0;
 }
